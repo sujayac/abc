@@ -3,7 +3,7 @@ Class.java:
 Holds details of each class and also stores the members enrolled for that class
 
 ClubOwner.java
-Hold details of each club owner also 
+Hold details of each club owner(name & id), also stores details of all classes owned by this clubOwner
 
 Member.java
 Hold details of each member and also stores details of all classes enrolled by that member
