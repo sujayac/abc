@@ -23,7 +23,10 @@ class BookingServiceImpl{
   private List<Class> searchBookingsByMember(Member member){
     return member.getClassesEnrolled();
   }
-  
+
+  private List<Class> searchBookingsByDate(ZonedDateTime startDate, ZonedDateTime endDate){
+    
+  }
 }
 
 
