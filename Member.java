@@ -1,8 +1,7 @@
 @Getter
 @Setter
-class member{
+class Member{
   private String name;
   private String memberId;
   private List<class> classesEnrolled;
-  
 }
