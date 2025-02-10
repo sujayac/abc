@@ -1,9 +1,10 @@
 @Getter
 @Setter
   class Class{
-    private name;
-    private startDate;
-    private endDate;
-    private duration;
-    private maxCapacity;
+    private String name;
+    private ZonedDateTime startDate;
+    private ZonedDateTime endDate;
+    private int duration;
+    private int maxCapacity;
+    private List<member> membersEnrolled;
 }
