@@ -7,4 +7,8 @@
     private int duration;
     private int maxCapacity;
     private List<member> membersEnrolled;
+
+    public class(){
+    
+    }
 }
