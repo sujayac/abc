@@ -10,6 +10,7 @@ class BookingServiceImpl{
           return false;
         }else{
           class.getMembersEnrolled.add(member);
+          member.getClassesEnrolled.add(class);
           return true;
         }
       }else{
@@ -19,7 +20,9 @@ class BookingServiceImpl{
     }
   }
 
-  private 
+  private List<Class> searchBookingsByMember(Member member){
+    return member.getClassesEnrolled();
+  }
   
 }
 
