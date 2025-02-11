@@ -16,3 +16,5 @@ Service layer to either book a class or search through existing bookings
 
 BookingRequest.java
 Request object that is sent to API when member tries to make a booking for a class.
+
+Change to be made: class and member classes will have map object or memberid with classes enrolled instead of just a list of classes enrolled.   that way accessing and searching by member becomes more efficient.
